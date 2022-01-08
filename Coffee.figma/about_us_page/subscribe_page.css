@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1440px;
+    margin:  0 auto;
+    padding: 43.56px 80px 0px 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    margin-left: 32px;
+    list-style-type: none;
+}
+
+.item_link {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    letter-spacing: 0.92px;
+    color: rgba(131, 136, 143, 1);
+}
+
+.item_link:hover {
+    color: black;
+}
+
+.background_img_cofe {
+    width: 1280px;
+    height: 450px;
+    background-image: url(../about_us_page/subsciribe_page_pic.png);
+    background-repeat: no-repeat;
+    margin-top: 43.44px;
+    padding: 134px 709px 134px 85px;
+    margin-bottom: 168px;
+}
+
+.img_title {
+    color: #fff;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.img_text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    width: 448px;
+    height: 78px;
+}
+
+.black_area {
+    width: 1280px;
+    height: 653px;
+    padding: 100px 150px 99px 85px;
+    background-color: #2c343e;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 168px;
+}
+
+.wrapper_of_line {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 82.5px;
+}
+
+.background_line {
+    width: 760px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 113.5px;
+    left: 100px;
+    z-index: 1 1;
+   
+}
+
+.oval {
+    /* position: absolute; */
+    background-color: transparent;
+    color: transparent;
+    border: 2px solid transparent;
+    top: 0;
+    margin-right: 349px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_ {
+    width: 285px;
+    height: 356px;
+}
+
+.number {
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #fdd6ba;
+}
+
+.box_title {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 900;
+    margin-top: 38px;
+    margin-bottom: 42px;
+    color: #fefcf7;
+    width: 219px;
+    height: 73px;
+}
+
+.box_text {
+    width: 285px;
+    height: 131px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fefcf7;
+}
+
+.what_like_section {
+    width: 255px;
+    height: 356px;
+    margin-left: 85px;
+    margin-right: 125px;
+    display: inline-block;
+}
+
+.options {
+    display: flex;
+   
+}
+
+.bottom_line {
+    width: 255.1px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background: #83888F;
+    opacity: 0.25;
+}
+
+.num {
+    margin-right: 28.5px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    color: rgba(14, 135, 132, 1);
+}
+.num_other {
+    color: #83888f;
+}
+
+.option_1 {
+    opacity: 0.4;
+}
+.option_2 {
+    opacity: 0.6;
+}
+
+
+.selection {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    color: #333D4B;
+    text-decoration: none;
+}
+
+.how_drink_coffee {
+    display: block;
+    width: 700px;
+    height: 354px;
+    margin-bottom: 88px;
+}
+
+.drink_coffee_heading {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 900;
+    color: rgba(131, 136, 143, 1);
+    margin-bottom: 56px;
+    background-image: url(./yonalish_belgi.png);
+    background-repeat: no-repeat;
+    background-position-x: 678px;
+    background-position-y: 15px;
+}
+
+.coffee_types {
+    display: flex;
+    column-gap: 23px;
+}
+
+.capsule {
+    width: 228px;
+    height: 250px;
+    padding: 32px 28px 84px 28px;
+    border-radius: 5px;
+}
+
+.box_1 {
+    background-color: rgba(244, 241, 235, 1);
+}
+
+.box_2 {
+    background-color: #0e8784;
+    color: #fff;
+}
+
+.box_3 {
+    background-color: #fdd6ba;
+}
+.capsule_heading {
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    margin-bottom: 24px;
+    color: rgba(51, 61, 75, 1);
+}
+
+.capsule_text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.just_wrapper {
+    display: flex;
+}
+
+.how_drink_coffee_2 {
+       
+}
+

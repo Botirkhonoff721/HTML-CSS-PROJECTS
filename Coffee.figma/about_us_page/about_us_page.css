@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    width: 1440px;
+    padding: 43px 80px 0 80px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.menu_btn {
+    display: none;
+}
+
+.list {
+    display: flex;
+    column-gap: 32px;
+
+}
+
+.list_item {
+    list-style-type: none;
+}
+
+.list_item_link {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    color: rgba(131, 136, 143, 1);
+}
+.list_item_link:hover {
+    color: black;
+}
+
+.img_cofe {
+    width: 1280px;
+    height: 450px;
+    background-image: url(../about_us_page/img/picture_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    padding: 137px 750px 137px 85px;
+}
+
+.about_us_part {
+    width: 445px;
+    height: 176px;
+}
+
+.img_heading {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.img_text {
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.our_commitment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    height: 520px;
+    margin: 0 auto;
+    margin-top: 168px;
+    margin-bottom: 168px;
+}
+
+.text_side {
+    width: 540px;
+    height: 340px;
+}
+
+.commitment_heading {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.commitment_text {
+    width: 520px;
+    height: 260px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.about_quality {
+    width: 1280px;
+    height: 562px;
+    position: relative;
+    border: 1px solid transparent;
+    margin-bottom: 168px;
+
+}
+
+.dark_area {
+    width: 1280px;
+    height: 474px;
+    background-color: #2c343e;
+    padding: 88px 678px 176px 85px;
+    border-radius: 5px;
+    margin-top: 85px;
+}
+
+.dark_area_heading {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #fefcf7;
+    margin-bottom: 32px;
+}
+
+.dark_area_text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: #fefcf7;
+}
+
+.img_of_coffee {
+    position: absolute;
+    left: 785px;
+    top: 0px;
+}
+
+.headquarter {
+    width: 1045px;
+    height: 366px;
+    margin: 0 auto;
+    margin-bottom: 168px;
+}
+
+.headquarter_title {
+    margin-bottom: 72px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    color: rgba(131, 136, 143, 1);
+}
+
+.positions {
+    display: flex;
+    align-items: center;
+    column-gap: 95px;
+}
+
+.position_1_heading {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 900;
+    color: rgba(51, 61, 75, 1);
+    margin-top: 46px;
+    margin-bottom: 24px;
+}
+
+.addrees_1 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(51, 61, 75, 1);
+    list-style-type: none;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(44, 52, 62, 1);
+    align-items: center;
+    width: 1280px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 400px;
+    padding-left: 90px ;
+}
+
+.for_tablet3 {
+    display: flex;
+}
+
+.footer_logo_text {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 103px;
+}
+
+.footer_left {
+    display: flex;
+}
+
+.footer_right {
+    margin-right: 85px;
+}
+
+.right_logo {
+    margin-left: 24px; 
+    padding: 7px;
+    border-radius: 20px;
+}
+.right_logo:hover {
+    background-color: thistle;
+    color: #fff;
+}
+
+.footer_item:hover {
+    color: #fff;
+}
+
+
+
+
+@media screen and ( min-width: 701px ) and  ( max-width: 1276px ) {
+    .wrapper {
+        width: 768px;
+        padding: 23px 39px 72px 40px;
+    }
+    .img_cofe {
+        width: 689px;
+        height: 400px;
+        padding: 118px 233px 118px 58px;
+        border-radius: 5px;
+    }
+    .commitment_img {
+        width: 281px;
+        height: 470px;
+    }
+    
+    .text_side {
+        width: 339px;
+        height: 453px;
+    }
+
+    .our_commitment {
+        justify-content: start;
+        column-gap: 69px;
+        margin: 0 auto;
+        margin-top: 144px;
+        margin-bottom: 144px;
+    }
+    
+    .commitment_heading {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .commitment_text {
+        width: 339px;
+        height: 350px;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+    
+    .about_quality {
+        width: 688px;
+        height: 648px;
+        margin-bottom: 144px;
+
+    }
+
+    .dark_area {
+        width: 688px;
+        height: 488px;
+        padding: 224px 74px 67px 74px;
+        margin-top: 160px;
+    }   
+
+    .dark_area_heading {
+        font-size: 32px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .dark_area_text {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .img_of_coffee {
+        width: 573px;
+        height: 320px;
+        left: 60px;
+    }
+
+    .headquarter {
+        width: 688px;
+        margin-bottom: 144px;
+    }
+    
+    .positions {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+    
+    .position_1_heading {
+        font-size: 24px;
+        margin-bottom: 21px;
+        margin-top: 48.93px;
+    }
+    .footer {
+        width: 688px;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .for_tablet3 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer_logo_img_tablet {
+        margin-top: 54px;
+    }
+    
+    .footer_logo_text {
+        margin: 0 auto;
+        margin-bottom: 32px;
+        margin-top: 54px;
+        margin-left: 8px;
+    }
+    
+    .footer_left {
+        display: block;
+    }
+    
+    .footer_right {
+        margin: 0 auto;
+        margin-bottom: 54px;
+    }
+    
+    .right_logo {
+        align-items: center;
+        display: inline-block;
+        border-radius: 20px;
+    }
+    
+    .list {
+        justify-content: center;
+        column-gap: 33px;
+    }
+    
+    .list_item {
+        list-style-type: none;
+    }
+    
+    .list_item_link {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 700;
+        color: rgba(131, 136, 143, 1);
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+        width: 375px;
+        padding: 32px 24px 0 24px;
+    }
+    .img_cofe {
+        width: 327px;
+        padding: 111px 24px 87px 24px;
+        border-radius: 5px;
+    }
+
+    .mobile_logo_header {
+        width: 163px;
+        height: 18px;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .menu_btn {
+        display: block;
+    }
+
+    .about_us_part {
+        width: 279px;
+        height: 202px; 
+    }
+
+    .img_heading {
+        text-align: center; 
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+
+    .img_text {
+        text-align: center; 
+        height: 150px;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #fff;
+    }
+    
+    .our_commitment {
+        display: block;
+        width: 327px;
+        height: 901px;
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    .commitment_img {
+        width: 327px;
+        height: 400px;
+        margin-bottom: 48px;
+    }
+
+    .text_side {
+        width: 327px;
+        height: 450px;
+        text-align: center;
+    }
+
+    .commitment_heading {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .commitment_text {
+        width: 327px;
+        height: 375px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about_quality {
+        width: 327px;
+        height: 587px;
+        margin-bottom: 120px;
+    
+    }
+    
+    .dark_area {
+        width: 327px;
+        height: 509px;
+        padding: 142px 24px 61px 24px;
+        margin-top: 78px;
+    }
+    
+    .dark_area_heading {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    
+    .dark_area_text {
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .img_of_coffee {
+        width: 279px;
+        height: 176px;
+        position: absolute;
+        left: 24px;
+    }
+    .headquarter {
+        width: 327px;
+        height: 1044px;
+        margin-bottom: 120px;
+        text-align: center;
+    }
+    
+    .positions {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .position_1_heading {
+        font-size: 28px;
+        margin-bottom: 24px;
+        margin-top: 47.93px;
+    }
+    .first_position {
+        margin-bottom: 80px;
+    }
+    
+    .footer {
+        display: block;
+        width: 327px;
+        height: 346px;
+        padding: 55px;
+    }
+
+    .for_tablet3 {
+        display: flex;
+    }
+
+    .footer_logo_text {
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-right: 0px;
+        margin-bottom: 48.44px;
+    }
+
+    .footer_left {
+        display: block;
+        text-align: center;
+        margin-bottom: 48.56px;
+    }
+
+    .footer_right {
+        margin-right: 0px;
+    }
+
+    .right_logo {
+        margin-left: 24px; 
+        padding: 7px;
+        border-radius: 20px;
+    }
+    .right_logo:hover {
+        background-color: thistle;
+        color: #fff;
+    }
+
+    .footer_item:hover {
+        color: #fff;
+    }
+
+    .mobile_footer_link {
+        /* display: block; */
+    }
+    .footer_right {
+        margin: 0 auto;
+        margin-bottom: 0;
+    }
+    
+    .right_logo {
+        align-items: center;
+        display: inline-block;
+        border-radius: 20px;
+    }
+    
+    .list {
+        display: block;
+        justify-content: center;
+        column-gap: 33px;
+        color: #fff;
+    }
+    
+    .list_item {
+        list-style-type: none;
+        margin-bottom: 24px;
+    }
+    
+    .list_item_link {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 700;
+        letter-spacing: 0.92px;
+    }
+
+    
+    
+    
+}
+
+    
